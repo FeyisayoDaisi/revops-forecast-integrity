@@ -1,0 +1,60 @@
+# Stage definitions for the Forecast Integrity System.
+# Every rule here is read by the Stage 1 rules check and the Stage 2 forecasts.
+# Exit criteria are cumulative: a deal in a stage must meet that stage's
+# required fields AND every earlier stage's required fields.
+
+stages:
+  - name: Discovery
+    order: 1
+    definition: "We have a named contact with a real problem and a booked next meeting."
+    exit_criteria: "Next step booked with a date."
+    required_fields: [next_step]
+    max_days_in_stage: 30
+    win_probability: 0.10
+  - name: Qualification
+    order: 2
+    definition: "The buyer has confirmed the pain in their own words and it is worth solving this year."
+    exit_criteria: "Pain confirmed by the buyer and recorded."
+    required_fields: [next_step, pain_confirmed]
+    max_days_in_stage: 30
+    win_probability: 0.20
+  - name: Solution
+    order: 3
+    definition: "We have shown the solution to the person who signs, or someone who has confirmed they will take it to them."
+    exit_criteria: "Decision maker identified by name."
+    required_fields: [next_step, pain_confirmed, decision_maker_identified]
+    max_days_in_stage: 35
+    win_probability: 0.40
+  - name: Proposal
+    order: 4
+    definition: "A priced proposal is in the buyer's hands and budget is confirmed."
+    exit_criteria: "Budget confirmed against the proposal amount."
+    required_fields: [next_step, pain_confirmed, decision_maker_identified, budget_confirmed]
+    max_days_in_stage: 35
+    win_probability: 0.60
+  - name: Negotiation
+    order: 5
+    definition: "Terms are being agreed and we know the buyer's signing process and date."
+    exit_criteria: "Paper process (legal, procurement, signer) known and dated."
+    required_fields: [next_step, pain_confirmed, decision_maker_identified, budget_confirmed, paper_process_known]
+    max_days_in_stage: 30
+    win_probability: 0.80
+
+hygiene:
+  stale_days: 45            # no activity for this many days...
+  stale_min_stage: 3        # ...in this stage or later counts as stale
+  max_close_date_pushes: 3  # pushed this many times or more = serial slipper
+  commit_needs: [next_step, decision_maker_identified]  # commit without these = happy ears
+
+health_score_penalties:     # health score starts at 100
+  missing_exit_criteria: 25
+  stale: 30
+  past_due_close_date: 20
+  serial_slipper: 15
+  happy_ears: 20
+  over_days_in_stage: 10
+  missing_amount_or_close_date: 25
+  possible_duplicate: 30
+
+rep_call:
+  best_case_share: 0.5      # rep call = commit + this share of best case

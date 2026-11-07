@@ -1,0 +1,3 @@
+view,open_deals,complete_records_pct,meeting_exit_criteria_pct,stale_pct,past_due_pct,commit_amount,weighted_pipeline_2026Q4
+before (raw CRM),67,98.5,97.0,14.9,26.9,244500.0,629560
+after (approved fixes),50,98.0,98.0,0.0,0.0,73500.0,541110

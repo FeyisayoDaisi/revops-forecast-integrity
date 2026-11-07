@@ -1,0 +1,17 @@
+## Forecast memo, 2026Q4, week 5
+
+**The number.** I recommend we call $559,000 for the quarter against a target of $590,000, a gap of $31,000. The likely range is $433,000 to $685,000, and we have won $115,900 so far.
+
+**What moved this week.** In-quarter pipeline went from $2,490,400 to $2,383,600. One deal was won for $75,000 and one was lost for $31,800. Nothing new entered the quarter and nothing was pushed out, and 8 deals moved up a stage.
+
+**Where the forecast is at risk.** 9 in-quarter deals worth $412,200 fail our stage rules. The biggest is D1089 at $121,000, whose close date has been pushed 7 times. D1078 at $87,000 sits in commit with no next step or decision maker, and D1087 has had no buyer activity for 45 days.
+
+The rep call on the raw CRM is $355,400, and commit on the clean pipeline is $165,000. Musa Mwangi calls $0 while the model sees $113,200, so his late-stage deals may be sitting in pipeline category.
+
+**Actions this week.**
+- Jide Kamau: confirm a mutual close plan for D1089 or move it to next quarter.
+- Kemi Diallo: record the next step and decision maker on D1078, or downgrade it to best case.
+- Musa Mwangi: walk me through his late-stage deals before the call so commit reflects what he expects to sign.
+
+
+_Synthetic demo data. Narrative: AI narrative (claude-opus-5-5 (written in this build session from facts.json))._

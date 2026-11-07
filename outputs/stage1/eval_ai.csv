@@ -1,0 +1,5 @@
+verdict,true_pos,false_pos,missed,precision,recall
+abandoned,66,0,10,1.0,0.868
+mis_staged,6,2,2,0.75,0.75
+stalled,16,11,1,0.593,0.941
+no_issue,1,2,2,0.333,0.333

@@ -1,0 +1,21 @@
+audit_date,deal_id,problem,detector,stage,days_since_activity,next_step,flags_raised
+2025-11-10,D1046,abandoned,stale,Solution,10,,"missing_exit_criteria, happy_ears"
+2025-11-10,D1207,abandoned,stale,Solution,12,Follow up,"past_due_close_date, missing_amount_or_close_date"
+2025-11-10,D1041,abandoned,stale,Proposal,38,Follow up,"past_due_close_date, over_days_in_stage"
+2025-11-10,D1343,duplicate,possible_duplicate,Qualification,133,Follow up,"past_due_close_date, over_days_in_stage"
+2026-02-09,D1235,abandoned,stale,Proposal,17,Follow up,past_due_close_date
+2026-02-09,D1245,abandoned,stale,Proposal,12,Follow up,past_due_close_date
+2026-02-09,D1274,abandoned,stale,Proposal,14,Follow up,past_due_close_date
+2026-02-09,D1347,duplicate,possible_duplicate,Discovery,56,Follow up,over_days_in_stage
+2026-05-11,D1286,abandoned,stale,Proposal,41,,"missing_exit_criteria, past_due_close_date, happy_ears, over_days_in_stage"
+2026-05-11,D1094,abandoned,stale,Negotiation,35,Follow up,"past_due_close_date, over_days_in_stage"
+2026-05-11,D1155,abandoned,stale,Proposal,34,Follow up,"past_due_close_date, over_days_in_stage"
+2026-05-11,D1333,mis_staged,missing_exit_criteria,Negotiation,0,Security questionnaire review on 2026-05-17,over_days_in_stage
+2026-05-11,D1205,mis_staged,missing_exit_criteria,Solution,9,Contract redlines review on 2026-05-16,
+2026-08-10,D1051,abandoned,stale,Negotiation,40,Follow up,"past_due_close_date, over_days_in_stage"
+2026-08-10,D1240,abandoned,stale,Solution,39,Follow up,"past_due_close_date, over_days_in_stage"
+2026-08-10,D1081,abandoned,stale,Solution,11,Follow up,past_due_close_date
+2026-11-02,D1282,abandoned,stale,Proposal,39,Follow up,"past_due_close_date, missing_amount_or_close_date, over_days_in_stage"
+2026-11-02,D1070,abandoned,stale,Solution,12,Follow up,past_due_close_date
+2026-11-02,D1180,abandoned,stale,Solution,15,Follow up,past_due_close_date
+2026-11-02,D1073,abandoned,stale,Solution,13,Follow up,

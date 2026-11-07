@@ -1,0 +1,68 @@
+deal_id,owner,stage,health_score,flag_reasons
+D1087,Hassan Mensah,Solution,0,"missing_exit_criteria, stale, past_due_close_date, happy_ears, over_days_in_stage"
+D1051,Dara Eze,Negotiation,40,"stale, past_due_close_date, over_days_in_stage"
+D1058,Amara Adeyemi,Proposal,40,"stale, past_due_close_date, over_days_in_stage"
+D1081,Lola Banda,Solution,40,"stale, past_due_close_date, over_days_in_stage"
+D1155,Nneka Achebe,Proposal,40,"stale, past_due_close_date, over_days_in_stage"
+D1300,Bola Okafor,Proposal,40,"stale, past_due_close_date, over_days_in_stage"
+D1312,Lola Banda,Proposal,40,"stale, past_due_close_date, over_days_in_stage"
+D1317,Amara Adeyemi,Negotiation,40,"stale, past_due_close_date, over_days_in_stage"
+D1320,Bola Okafor,Negotiation,40,"stale, past_due_close_date, over_days_in_stage"
+D1323,Bola Okafor,Solution,40,"stale, past_due_close_date, over_days_in_stage"
+D1340,Grace Abubakar,Qualification,40,"past_due_close_date, possible_duplicate, over_days_in_stage"
+D1341,Ifeoma Owusu,Qualification,40,"past_due_close_date, possible_duplicate, over_days_in_stage"
+D1345,Ifeoma Owusu,Qualification,40,"past_due_close_date, possible_duplicate, over_days_in_stage"
+D1349,Femi Nwosu,Qualification,40,"past_due_close_date, possible_duplicate, over_days_in_stage"
+D1350,Femi Nwosu,Qualification,40,"past_due_close_date, possible_duplicate, over_days_in_stage"
+D1282,Grace Abubakar,Proposal,45,"past_due_close_date, missing_amount_or_close_date, over_days_in_stage"
+D1078,Kemi Diallo,Solution,55,"missing_exit_criteria, happy_ears"
+D1346,Grace Abubakar,Discovery,60,"possible_duplicate, over_days_in_stage"
+D1353,Lola Banda,Discovery,70,possible_duplicate
+D1045,Chidi Bello,Discovery,75,"serial_slipper, over_days_in_stage"
+D1089,Jide Kamau,Discovery,75,"serial_slipper, over_days_in_stage"
+D1070,Ola Sowande,Solution,80,past_due_close_date
+D1180,Hassan Mensah,Solution,80,past_due_close_date
+D1338,Grace Abubakar,Negotiation,85,serial_slipper
+D1006,Hassan Mensah,Discovery,90,over_days_in_stage
+D1011,Ifeoma Owusu,Qualification,90,over_days_in_stage
+D1016,Jide Kamau,Discovery,90,over_days_in_stage
+D1021,Musa Mwangi,Discovery,90,over_days_in_stage
+D1109,Ifeoma Owusu,Discovery,90,over_days_in_stage
+D1118,Lola Banda,Discovery,90,over_days_in_stage
+D1135,Kemi Diallo,Discovery,90,over_days_in_stage
+D1139,Jide Kamau,Discovery,90,over_days_in_stage
+D1150,Ola Sowande,Discovery,90,over_days_in_stage
+D1179,Bola Okafor,Discovery,90,over_days_in_stage
+D1253,Jide Kamau,Discovery,90,over_days_in_stage
+D1310,Kemi Diallo,Discovery,90,over_days_in_stage
+D1316,Ifeoma Owusu,Discovery,90,over_days_in_stage
+D1325,Femi Nwosu,Discovery,90,over_days_in_stage
+D1009,Lola Banda,Solution,100,
+D1010,Grace Abubakar,Negotiation,100,
+D1018,Grace Abubakar,Solution,100,
+D1027,Musa Mwangi,Proposal,100,
+D1036,Bola Okafor,Discovery,100,
+D1065,Efe Ogunleye,Qualification,100,
+D1073,Nneka Achebe,Solution,100,
+D1090,Efe Ogunleye,Qualification,100,
+D1096,Dara Eze,Discovery,100,
+D1117,Musa Mwangi,Solution,100,
+D1128,Bola Okafor,Negotiation,100,
+D1132,Femi Nwosu,Qualification,100,
+D1142,Hassan Mensah,Solution,100,
+D1144,Musa Mwangi,Solution,100,
+D1157,Ola Sowande,Qualification,100,
+D1159,Jide Kamau,Proposal,100,
+D1161,Nneka Achebe,Discovery,100,
+D1171,Musa Mwangi,Qualification,100,
+D1176,Musa Mwangi,Solution,100,
+D1200,Dara Eze,Solution,100,
+D1202,Grace Abubakar,Solution,100,
+D1211,Kemi Diallo,Discovery,100,
+D1223,Dara Eze,Discovery,100,
+D1252,Musa Mwangi,Qualification,100,
+D1283,Hassan Mensah,Discovery,100,
+D1309,Lola Banda,Qualification,100,
+D1319,Bola Okafor,Discovery,100,
+D1327,Ola Sowande,Solution,100,
+D1332,Lola Banda,Qualification,100,

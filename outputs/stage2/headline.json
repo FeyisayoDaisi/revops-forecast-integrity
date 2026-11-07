@@ -1,0 +1,12 @@
+{
+  "best_method": "historical",
+  "best_clean_error_pct": 21.0,
+  "same_method_raw_error_pct": 27.5,
+  "rep_call_raw_error_pct": 41.6,
+  "leakage_check": {
+    "checks_run": 624,
+    "violations": 0,
+    "passed": true
+  },
+  "rep_pattern_matches": "12 of 15 reps"
+}

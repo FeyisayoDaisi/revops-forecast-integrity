@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.26
+PyYAML>=6.0
+matplotlib>=3.8
+Markdown>=3.5
+reportlab>=4.0
+# only for --ai live:
+# anthropic>=0.40

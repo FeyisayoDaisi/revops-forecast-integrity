@@ -1,0 +1,7 @@
+method,data,mean_abs_error_pct,mean_bias_pct,worst_abs_error_pct,forecasts
+historical,clean,21.0,-0.1,49.7,12
+historical,raw,27.5,8.2,69.7,12
+rep_call,clean,33.2,-20.9,71.4,12
+rep_call,raw,41.6,9.7,91.8,12
+stage_weighted,clean,24.6,12.2,44.1,12
+stage_weighted,raw,45.3,43.0,94.6,12

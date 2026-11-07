@@ -1,0 +1,6 @@
+check,passed,detail
+every figure in the memo is in the computed facts,True,17 figures checked
+waterfall adds up from last week to this week,True,"$2,490,400 + movements = $2,383,600 vs $2,383,600"
+deal-level movements match the waterfall,True,2 deal movements
+range contains the recommended forecast,True,
+every deal ID in the memo is a flagged at-risk deal,True,"['D1078', 'D1087', 'D1089']"

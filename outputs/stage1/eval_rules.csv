@@ -1,0 +1,9 @@
+detector,true_pos,false_pos,missed,precision,recall,false_positive_rate
+missing_exit_criteria,24,0,2,1.0,0.923,0.0
+stale,61,1,16,0.984,0.792,0.004
+past_due_close_date,89,2,0,0.978,1.0,0.009
+serial_slipper,17,0,0,1.0,1.0,0.0
+happy_ears,18,0,0,1.0,1.0,0.0
+missing_amount_or_close_date,7,0,0,1.0,1.0,0.0
+possible_duplicate,19,0,3,1.0,0.864,0.0
+ANY (deal level),126,3,4,0.977,0.969,0.016

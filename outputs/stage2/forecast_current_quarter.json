@@ -1,0 +1,24 @@
+{
+  "quarter": "2026Q4",
+  "week": 5,
+  "raw": {
+    "won_so_far": 115900.0,
+    "commit": 190500.0,
+    "best_case": 98000.0,
+    "open_in_quarter": 2383600.0,
+    "rep_call": 355400.0,
+    "stage_weighted": 745460.0,
+    "historical": 492720.59427401033
+  },
+  "clean": {
+    "won_so_far": 115900.0,
+    "commit": 49100.0,
+    "best_case": 185000.0,
+    "open_in_quarter": 2058400.0,
+    "rep_call": 257500.0,
+    "stage_weighted": 657010.0,
+    "historical": 558842.7876633581
+  },
+  "recommended_method": "historical",
+  "band_pct": 22.5
+}

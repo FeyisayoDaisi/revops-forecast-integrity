@@ -1,0 +1,51 @@
+snapshot_date,deal_id,account_name,owner,segment,stage,amount,close_date,forecast_category,next_step,decision_maker_identified,budget_confirmed,in_forecast,fix_applied
+2026-11-02,D1282,Kestrel Clinics Group,Grace Abubakar,SMB,Proposal,,2026-09-27,best_case,Follow up,True,True,False,True
+2026-11-02,D1078,Meridian Foods Group,Kemi Diallo,Mid-Market,Solution,87000.0,2026-11-25,best_case,Follow up,False,False,True,True
+2026-11-02,D1045,Vertex Analytics Ltd,Chidi Bello,SMB,Discovery,26200.0,2027-01-15,pipeline,Exec alignment call on 2026-11-13,False,False,True,True
+2026-11-02,D1089,Willow Finance Group,Jide Kamau,Mid-Market,Discovery,121000.0,2027-01-15,pipeline,Reference call on 2026-11-08,False,False,True,True
+2026-11-02,D1070,Saffron Learning Co,Ola Sowande,Mid-Market,Solution,77000.0,2026-10-20,pipeline,Follow up,True,False,False,True
+2026-11-02,D1180,Summit Health Ltd,Hassan Mensah,SMB,Solution,12500.0,2026-10-20,pipeline,Follow up,True,False,False,True
+2026-11-02,D1338,Meridian Mobility Co,Grace Abubakar,SMB,Negotiation,24400.0,2027-01-15,commit,Technical deep dive on 2026-11-13,True,True,True,True
+2026-11-02,D1006,Tidal Analytics Group,Hassan Mensah,SMB,Discovery,23400.0,2026-12-06,pipeline,Pilot kickoff on 2026-11-11,False,False,True,False
+2026-11-02,D1011,Vertex Energy Ltd,Ifeoma Owusu,Mid-Market,Qualification,143000.0,2026-11-15,pipeline,Technical deep dive on 2026-11-04,False,False,True,False
+2026-11-02,D1016,Willow Mobility Group,Jide Kamau,Mid-Market,Discovery,122000.0,2026-11-13,pipeline,Contract redlines review on 2026-11-09,False,False,True,False
+2026-11-02,D1021,Pioneer Media Group,Musa Mwangi,Mid-Market,Discovery,79000.0,2027-01-25,pipeline,Pilot kickoff on 2026-11-10,False,False,True,False
+2026-11-02,D1109,Ember Foods Ltd,Ifeoma Owusu,Mid-Market,Discovery,32000.0,2026-12-06,pipeline,Pilot kickoff on 2026-11-07,False,False,True,False
+2026-11-02,D1118,Juniper Clinics Group,Lola Banda,Mid-Market,Discovery,75000.0,2026-12-15,pipeline,Pricing call on 2026-11-08,False,False,True,False
+2026-11-02,D1135,Falcon Media Ltd,Kemi Diallo,Mid-Market,Discovery,78000.0,2026-12-11,pipeline,Demo with ops lead on 2026-11-11,False,False,True,False
+2026-11-02,D1139,Atlas Labs Co,Jide Kamau,Mid-Market,Discovery,105000.0,2026-11-11,pipeline,Reference call on 2026-11-08,False,False,True,False
+2026-11-02,D1150,Saffron Freight Group,Ola Sowande,Mid-Market,Discovery,77000.0,2026-11-02,pipeline,Demo with ops lead on 2026-11-13,False,False,True,False
+2026-11-02,D1179,Northwind Energy Co,Bola Okafor,SMB,Discovery,14800.0,2026-11-16,pipeline,Contract redlines review on 2026-11-09,False,False,True,False
+2026-11-02,D1253,Tidal Mobility Co,Jide Kamau,Mid-Market,Discovery,34000.0,2026-12-04,pipeline,Demo with ops lead on 2026-11-11,False,False,True,False
+2026-11-02,D1310,Atlas Finance Co,Kemi Diallo,Mid-Market,Discovery,88000.0,2027-01-04,pipeline,Technical deep dive on 2026-11-05,False,False,True,False
+2026-11-02,D1316,Falcon Retail Co,Ifeoma Owusu,Mid-Market,Discovery,122000.0,2026-12-02,pipeline,Reference call on 2026-11-10,False,False,True,False
+2026-11-02,D1325,Ember Media Group,Femi Nwosu,SMB,Discovery,8200.0,2026-11-12,pipeline,Technical deep dive on 2026-11-13,False,False,True,False
+2026-11-02,D1009,Vertex Energy Co,Lola Banda,Mid-Market,Solution,83000.0,2026-12-14,pipeline,Technical deep dive on 2026-11-06,True,False,True,False
+2026-11-02,D1010,Kestrel Labs Co,Grace Abubakar,SMB,Negotiation,24100.0,2026-11-05,commit,Pilot kickoff on 2026-11-09,True,True,True,False
+2026-11-02,D1018,Cedar Retail Co,Grace Abubakar,SMB,Solution,25400.0,2026-11-27,pipeline,Contract redlines review on 2026-11-07,True,False,True,False
+2026-11-02,D1027,Ember Learning Co,Musa Mwangi,Mid-Market,Proposal,140000.0,2026-11-14,pipeline,Technical deep dive on 2026-11-08,True,True,True,False
+2026-11-02,D1036,Cobalt Mobility Group,Bola Okafor,SMB,Discovery,10400.0,2027-01-02,pipeline,Demo with ops lead on 2026-11-07,False,False,True,False
+2026-11-02,D1065,Meridian Energy Ltd,Efe Ogunleye,SMB,Qualification,9000.0,2026-12-04,pipeline,Workshop with finance on 2026-11-05,False,False,True,False
+2026-11-02,D1073,Beacon Foods Co,Nneka Achebe,Mid-Market,Solution,62000.0,2026-11-16,pipeline,Follow up,True,False,True,False
+2026-11-02,D1090,Lumen Foods Ltd,Efe Ogunleye,SMB,Qualification,30300.0,2026-11-29,pipeline,Demo with ops lead on 2026-11-09,False,False,True,False
+2026-11-02,D1096,Kestrel Logistics Ltd,Dara Eze,SMB,Discovery,25100.0,2026-11-08,pipeline,Reference call on 2026-11-08,False,False,True,False
+2026-11-02,D1117,Falcon Finance Ltd,Musa Mwangi,Mid-Market,Solution,79000.0,2027-01-07,pipeline,Workshop with finance on 2026-11-04,True,False,True,False
+2026-11-02,D1128,Beacon Clinics Group,Bola Okafor,SMB,Negotiation,25000.0,2026-11-04,commit,Contract redlines review on 2026-11-06,True,True,True,False
+2026-11-02,D1132,Cedar Logistics Ltd,Femi Nwosu,SMB,Qualification,22000.0,2026-12-09,pipeline,Security questionnaire review on 2026-11-09,False,False,True,False
+2026-11-02,D1142,Beacon Analytics Group,Hassan Mensah,SMB,Solution,31000.0,2026-11-23,pipeline,Workshop with finance on 2026-11-06,True,False,True,False
+2026-11-02,D1144,Orbit Retail Group,Musa Mwangi,Mid-Market,Solution,38000.0,2026-12-22,pipeline,Demo with ops lead on 2026-11-13,True,False,True,False
+2026-11-02,D1157,Saffron Finance Co,Ola Sowande,Mid-Market,Qualification,34000.0,2026-12-29,pipeline,Reference call on 2026-11-04,False,False,True,False
+2026-11-02,D1159,Quarry Systems Co,Jide Kamau,Mid-Market,Proposal,98000.0,2026-12-02,best_case,Technical deep dive on 2026-11-13,True,True,True,False
+2026-11-02,D1161,Juniper Freight Co,Nneka Achebe,Mid-Market,Discovery,44000.0,2026-12-15,pipeline,Reference call on 2026-11-07,False,False,True,False
+2026-11-02,D1171,Juniper Logistics Group,Musa Mwangi,Mid-Market,Qualification,135000.0,2026-12-20,pipeline,Exec alignment call on 2026-11-11,False,False,True,False
+2026-11-02,D1176,Granite Mobility Co,Musa Mwangi,Mid-Market,Solution,61000.0,2027-01-06,pipeline,Demo with ops lead on 2026-11-07,True,False,True,False
+2026-11-02,D1200,Quarry Labs Co,Dara Eze,SMB,Solution,15000.0,2026-11-24,pipeline,Contract redlines review on 2026-11-08,True,False,True,False
+2026-11-02,D1202,Cedar Logistics Co,Grace Abubakar,SMB,Solution,17500.0,2026-11-25,pipeline,Contract redlines review on 2026-11-07,True,False,True,False
+2026-11-02,D1211,Meridian Health Ltd,Kemi Diallo,Mid-Market,Discovery,132000.0,2027-01-08,pipeline,Exec alignment call on 2026-11-05,False,False,True,False
+2026-11-02,D1223,Kestrel Analytics Co,Dara Eze,SMB,Discovery,19200.0,2026-11-17,pipeline,Reference call on 2026-11-06,False,False,True,False
+2026-11-02,D1252,Cedar Freight Ltd,Musa Mwangi,Mid-Market,Qualification,42000.0,2026-11-15,pipeline,Workshop with finance on 2026-11-08,False,False,True,False
+2026-11-02,D1283,Harbor Energy Group,Hassan Mensah,SMB,Discovery,22400.0,2026-12-18,pipeline,Pilot kickoff on 2026-11-10,False,False,True,False
+2026-11-02,D1309,Harbor Logistics Ltd,Lola Banda,Mid-Market,Qualification,122000.0,2027-01-26,pipeline,Pricing call on 2026-11-13,False,False,True,False
+2026-11-02,D1319,Bluepeak Energy Ltd,Bola Okafor,SMB,Discovery,8200.0,2027-01-17,pipeline,Security questionnaire review on 2026-11-05,False,False,True,False
+2026-11-02,D1327,Saffron Labs Co,Ola Sowande,Mid-Market,Solution,66000.0,2026-12-15,pipeline,Pilot kickoff on 2026-11-09,True,False,True,False
+2026-11-02,D1332,Ember Clinics Group,Lola Banda,Mid-Market,Qualification,129000.0,2026-12-18,pipeline,Pilot kickoff on 2026-11-13,False,False,True,False

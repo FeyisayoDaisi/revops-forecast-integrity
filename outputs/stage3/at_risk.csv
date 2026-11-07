@@ -1,0 +1,10 @@
+deal_id,account_name,owner,stage,amount,forecast_category,flag_reasons,ai_verdict,proposed_fix
+D1089,Willow Finance Group,Jide Kamau,Discovery,121000.0,pipeline,"serial_slipper, over_days_in_stage",stalled,Move to next quarter: close date pushed 7 times
+D1078,Meridian Foods Group,Kemi Diallo,Solution,87000.0,commit,"missing_exit_criteria, happy_ears",mis_staged,Downgrade from commit to best case until next step and decision maker are recorded
+D1070,Saffron Learning Co,Ola Sowande,Solution,77000.0,pipeline,past_due_close_date,stalled,Keep out of this quarter until the owner sets a real close date
+D1087,Atlas Logistics Co,Hassan Mensah,Solution,30000.0,commit,"missing_exit_criteria, stale, past_due_close_date, happy_ears, over_days_in_stage",abandoned,Close as lost: no buyer activity for 45 days (owner can object)
+D1045,Vertex Analytics Ltd,Chidi Bello,Discovery,26200.0,pipeline,"serial_slipper, over_days_in_stage",stalled,Move to next quarter: close date pushed 4 times
+D1338,Meridian Mobility Co,Grace Abubakar,Negotiation,24400.0,commit,serial_slipper,stalled,Move to next quarter: close date pushed 4 times
+D1346,Kestrel Labs Co,Grace Abubakar,Discovery,24100.0,pipeline,"possible_duplicate, over_days_in_stage",data fix (no AI needed),Merge into D1010 and close this duplicate
+D1180,Summit Health Ltd,Hassan Mensah,Solution,12500.0,pipeline,past_due_close_date,stalled,Keep out of this quarter until the owner sets a real close date
+D1323,Summit Analytics Group,Bola Okafor,Solution,10000.0,pipeline,"stale, past_due_close_date, over_days_in_stage",abandoned,Close as lost: no buyer activity for 49 days (owner can object)

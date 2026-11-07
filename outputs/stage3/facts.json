@@ -1,0 +1,98 @@
+{
+ "quarter": "2026Q4",
+ "week": 5,
+ "target": "$590,000",
+ "won_so_far": "$115,900",
+ "commit_clean": "$165,000",
+ "best_case_clean": "$350,000",
+ "rep_call_raw": "$355,400",
+ "recommended_forecast": "$559,000",
+ "range_low": "$433,000",
+ "range_high": "$685,000",
+ "band_pct": "22%",
+ "gap_to_target": "$31,000",
+ "coverage_ratio": "4.3x",
+ "method": "historical conversion",
+ "waterfall": {
+  "Pipeline last week": "$2,490,400",
+  "new": "$0",
+  "pulled_in": "$0",
+  "pushed_out": "$0",
+  "won": "-$75,000",
+  "lost": "-$31,800",
+  "amount_change": "$0",
+  "Pipeline this week": "$2,383,600"
+ },
+ "deals_advanced_this_week": 8,
+ "at_risk_deals": [
+  {
+   "deal_id": "D1089",
+   "owner": "Jide Kamau",
+   "amount": "$121,000",
+   "flags": "serial_slipper, over_days_in_stage",
+   "ai_verdict": "stalled",
+   "proposed_fix": "Move to next quarter: close date pushed 7 times"
+  },
+  {
+   "deal_id": "D1078",
+   "owner": "Kemi Diallo",
+   "amount": "$87,000",
+   "flags": "missing_exit_criteria, happy_ears",
+   "ai_verdict": "mis_staged",
+   "proposed_fix": "Downgrade from commit to best case until next step and decision maker are recorded"
+  },
+  {
+   "deal_id": "D1070",
+   "owner": "Ola Sowande",
+   "amount": "$77,000",
+   "flags": "past_due_close_date",
+   "ai_verdict": "stalled",
+   "proposed_fix": "Keep out of this quarter until the owner sets a real close date"
+  },
+  {
+   "deal_id": "D1087",
+   "owner": "Hassan Mensah",
+   "amount": "$30,000",
+   "flags": "missing_exit_criteria, stale, past_due_close_date, happy_ears, over_days_in_stage",
+   "ai_verdict": "abandoned",
+   "proposed_fix": "Close as lost: no buyer activity for 45 days (owner can object)"
+  },
+  {
+   "deal_id": "D1045",
+   "owner": "Chidi Bello",
+   "amount": "$26,200",
+   "flags": "serial_slipper, over_days_in_stage",
+   "ai_verdict": "stalled",
+   "proposed_fix": "Move to next quarter: close date pushed 4 times"
+  }
+ ],
+ "at_risk_total": "$412,200",
+ "at_risk_count": 9,
+ "rep_vs_model_gaps": [
+  {
+   "owner": "Kemi Diallo",
+   "rep_call": "$87,000",
+   "model_call": "$17,700"
+  },
+  {
+   "owner": "Grace Abubakar",
+   "rep_call": "$48,500",
+   "model_call": "$24,700"
+  },
+  {
+   "owner": "Hassan Mensah",
+   "rep_call": "$30,000",
+   "model_call": "$6,500"
+  },
+  {
+   "owner": "Lola Banda",
+   "rep_call": "$0",
+   "model_call": "$30,800"
+  },
+  {
+   "owner": "Musa Mwangi",
+   "rep_call": "$0",
+   "model_call": "$113,200"
+  }
+ ]
+}

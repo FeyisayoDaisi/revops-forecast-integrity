@@ -1,0 +1,117 @@
+{
+  "rules": [
+    {
+      "detector": "missing_exit_criteria",
+      "true_pos": 24,
+      "false_pos": 0,
+      "missed": 2,
+      "precision": 1.0,
+      "recall": 0.923,
+      "false_positive_rate": 0.0
+    },
+    {
+      "detector": "stale",
+      "true_pos": 61,
+      "false_pos": 1,
+      "missed": 16,
+      "precision": 0.984,
+      "recall": 0.792,
+      "false_positive_rate": 0.004
+    },
+    {
+      "detector": "past_due_close_date",
+      "true_pos": 89,
+      "false_pos": 2,
+      "missed": 0,
+      "precision": 0.978,
+      "recall": 1.0,
+      "false_positive_rate": 0.009
+    },
+    {
+      "detector": "serial_slipper",
+      "true_pos": 17,
+      "false_pos": 0,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0
+    },
+    {
+      "detector": "happy_ears",
+      "true_pos": 18,
+      "false_pos": 0,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0
+    },
+    {
+      "detector": "missing_amount_or_close_date",
+      "true_pos": 7,
+      "false_pos": 0,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0
+    },
+    {
+      "detector": "possible_duplicate",
+      "true_pos": 19,
+      "false_pos": 0,
+      "missed": 3,
+      "precision": 1.0,
+      "recall": 0.864,
+      "false_positive_rate": 0.0
+    },
+    {
+      "detector": "ANY (deal level)",
+      "true_pos": 126,
+      "false_pos": 3,
+      "missed": 4,
+      "precision": 0.977,
+      "recall": 0.969,
+      "false_positive_rate": 0.016
+    }
+  ],
+  "rules_missed": 20,
+  "ai": {
+    "deals_reviewed": 104,
+    "accuracy": 0.856,
+    "rule_false_alarms": 3,
+    "false_alarms_cleared_by_ai": 1
+  },
+  "ai_per_verdict": [
+    {
+      "verdict": "abandoned",
+      "true_pos": 66,
+      "false_pos": 0,
+      "missed": 10,
+      "precision": 1.0,
+      "recall": 0.868
+    },
+    {
+      "verdict": "mis_staged",
+      "true_pos": 6,
+      "false_pos": 2,
+      "missed": 2,
+      "precision": 0.75,
+      "recall": 0.75
+    },
+    {
+      "verdict": "stalled",
+      "true_pos": 16,
+      "false_pos": 11,
+      "missed": 1,
+      "precision": 0.593,
+      "recall": 0.941
+    },
+    {
+      "verdict": "no_issue",
+      "true_pos": 1,
+      "false_pos": 2,
+      "missed": 2,
+      "precision": 0.333,
+      "recall": 0.333
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+criterion,passed,evidence
+accurate,True,all reconciliation checks pass
+explains the change,True,2 of 2 non-zero movements named
+names actions,True,3 action bullets tied to a deal or rep
