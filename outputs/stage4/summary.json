@@ -1,0 +1,105 @@
+{
+  "won_deals": 97,
+  "avg_discount_won_pct": 15.3,
+  "avg_discount_quarter_end_pct": 19.1,
+  "avg_discount_rest_of_quarter_pct": 14.5,
+  "list_price_given_away": 1077830,
+  "won_revenue": 4208500,
+  "won_deals_with_unapproved_discount": 24,
+  "revenue_on_unapproved_terms": 872800,
+  "win_rate_by_discount_band": [
+    {
+      "band": "0-10%",
+      "quotes": 48,
+      "win_rate_pct": 65.0
+    },
+    {
+      "band": "10-20%",
+      "quotes": 69,
+      "win_rate_pct": 67.0
+    },
+    {
+      "band": "20-30%",
+      "quotes": 24,
+      "win_rate_pct": 58.0
+    },
+    {
+      "band": "30%+",
+      "quotes": 9,
+      "win_rate_pct": 67.0
+    }
+  ],
+  "quotes_checked": 162,
+  "quotes_breaking_policy": 54,
+  "open_quotes_waiting_on_approval": 3,
+  "forecast_link": {
+    "in_quarter_deals_with_quote": 4,
+    "with_policy_break": 1,
+    "amount_on_broken_quotes": 140000
+  },
+  "evaluation": [
+    {
+      "break_type": "missing_approval",
+      "planted": 13,
+      "caught": 12,
+      "false_alarms": 1,
+      "missed": 1,
+      "precision": 0.923,
+      "recall": 0.923
+    },
+    {
+      "break_type": "over_ceiling",
+      "planted": 7,
+      "caught": 7,
+      "false_alarms": 0,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "break_type": "clause_in_notes",
+      "planted": 11,
+      "caught": 8,
+      "false_alarms": 1,
+      "missed": 3,
+      "precision": 0.889,
+      "recall": 0.727
+    },
+    {
+      "break_type": "approved_after_close",
+      "planted": 14,
+      "caught": 14,
+      "false_alarms": 0,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "break_type": "price_mismatch",
+      "planted": 2,
+      "caught": 2,
+      "false_alarms": 0,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "break_type": "expired_quote",
+      "planted": 9,
+      "caught": 9,
+      "false_alarms": 0,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "break_type": "ANY (quote level)",
+      "planted": 56,
+      "caught": 54,
+      "false_alarms": 0,
+      "missed": 2,
+      "precision": 1.0,
+      "recall": 0.964
+    }
+  ]
+}

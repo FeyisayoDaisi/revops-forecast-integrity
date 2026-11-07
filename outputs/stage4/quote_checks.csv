@@ -1,0 +1,163 @@
+quote_id,deal_id,owner,segment,quote_date,list_price,discount_pct,net_price,payment_terms_days,free_months,term_months,clauses,notes,approvals_obtained,approval_date,outcome,closed_date,approvals_needed,approvals_missing,hard_breaks,policy_breaks,compliant
+Q5000,D1069,Efe Ogunleye,SMB,2025-07-16,30620,9.2,27800,30,0,12,,Customer can terminate for convenience after 6 months,,,lost,2025-07-22,legal,,,clause_in_notes,False
+Q5001,D1181,Ifeoma Owusu,Mid-Market,2025-04-22,42220,2.9,41000,30,0,24,,"No MFN, customer accepted standard terms",,,won,2025-05-16,none (rep can sign),,,,True
+Q5002,D1215,Musa Mwangi,Mid-Market,2025-04-07,136870,18.9,111000,30,0,12,,"No MFN, customer accepted standard terms",Manager,2025-04-10,lost,2025-04-15,sales_manager,,,,True
+Q5003,D1232,Amara Adeyemi,SMB,2025-03-14,22810,6.2,21400,45,1,12,,Security questionnaire returned,finance; VP Sales,2025-03-17,won,2025-04-28,finance; vp_sales,,,expired_quote,False
+Q5004,D1243,Musa Mwangi,Mid-Market,2025-04-07,168910,18.3,138000,30,0,12,,Committed to a 99.99% uptime guarantee,sales_manager,2025-04-10,won,2025-05-05,legal; sales_manager,,,clause_in_notes,False
+Q5005,D1268,Ifeoma Owusu,Mid-Market,2025-05-13,105560,10.0,95000,30,0,12,,Budget approved for this year,,,won,2025-05-22,none (rep can sign),,,,True
+Q5006,D1306,Grace Abubakar,SMB,2025-04-07,25320,13.9,21800,30,0,36,,Champion is the ops lead,,,won,2025-05-02,sales_manager,sales_manager,,missing_approval,False
+Q5007,D1324,Kemi Diallo,Mid-Market,2025-11-27,131110,16.1,110000,30,0,12,,Budget approved for this year,,,lost,2025-12-02,sales_manager,sales_manager,,missing_approval,False
+Q5008,D1272,Nneka Achebe,Mid-Market,2025-04-21,260320,44.3,145000,30,0,12,,Security questionnaire returned,,,won,2025-05-18,none (rep can sign),,discount 44.3% is above the 40% ceiling,over_ceiling,False
+Q5009,D1331,Femi Nwosu,SMB,2025-04-28,32750,19.7,26300,60,0,12,,Asked for case studies,Finance team; sales_manager,2025-05-01,won,2025-05-14,finance; sales_manager,,,,True
+Q5010,D1130,Grace Abubakar,SMB,2025-04-28,23200,0.0,23200,30,0,12,,Pricing agreed on the call,,,won,2025-05-28,none (rep can sign),,,,True
+Q5011,D1029,Ifeoma Owusu,Mid-Market,2025-04-28,74940,10.6,67000,30,0,24,,Asked for case studies,VP,2025-04-30,lost,2025-05-07,sales_manager,,,,True
+Q5012,D1276,Chidi Bello,SMB,2025-12-12,24010,11.3,21300,60,0,12,,Champion is the ops lead,Finance team; sales_manager,2025-12-15,lost,2025-12-22,finance; sales_manager,,,,True
+Q5013,D1125,Musa Mwangi,Mid-Market,2025-06-19,220860,34.8,144000,30,0,12,,They can walk away at month 6 if adoption is low,cro,2025-06-22,won,2025-06-27,cro,,,,True
+Q5014,D1336,Efe Ogunleye,SMB,2025-05-26,13140,14.0,11300,30,0,12,,Security questionnaire returned,vp_sales,2025-05-27,won,2025-06-16,sales_manager,,,,True
+Q5015,D1178,Ola Sowande,Mid-Market,2025-11-19,164330,28.8,117000,90,1,24,,"Customer asked about an SLA, standard SLA applies",Finance team; legal; VP Sales,2025-11-20,lost,2025-11-23,finance; legal; vp_sales,,,,True
+Q5016,D1163,Jide Kamau,Mid-Market,2025-05-26,47240,11.1,42000,30,0,24,,Asked for case studies,sales_manager,2025-05-27,lost,2025-06-06,sales_manager,,,,True
+Q5017,D1110,Efe Ogunleye,SMB,2025-06-14,16910,12.5,14800,30,0,12,,Budget approved for this year,Manager,2025-06-16,won,2025-07-04,sales_manager,,,,True
+Q5018,D1279,Kemi Diallo,Mid-Market,2025-07-23,144070,17.4,119000,30,0,12,,Budget approved for this year,VP Sales,2025-07-25,won,2025-08-01,sales_manager,,,,True
+Q5019,D1284,Lola Banda,Mid-Market,2025-06-24,173750,17.7,143000,45,0,36,,Procurement review booked,Finance team; sales_manager,2025-06-26,won,2025-07-12,finance; sales_manager,,,,True
+Q5020,D1053,Amara Adeyemi,SMB,2025-06-16,32360,11.3,28700,60,0,24,,Asked for case studies,Finance team; vp_sales,2025-06-18,won,2025-07-10,finance; sales_manager,,,,True
+Q5021,D1098,Chidi Bello,SMB,2025-06-16,10060,5.6,9500,30,0,12,,Budget approved for this year,,,won,2025-07-13,none (rep can sign),,,,True
+Q5022,D1133,Musa Mwangi,Mid-Market,2025-07-30,44710,15.0,38000,30,0,12,,Budget approved for this year,Manager,2025-08-17,won,2025-08-11,sales_manager,,,approved_after_close,False
+Q5023,D1216,Dara Eze,SMB,2025-06-16,16240,21.8,12700,30,0,12,,"Customer asked about an SLA, standard SLA applies",Legal team; VP Sales,2025-07-14,won,2025-07-05,legal; vp_sales,,,approved_after_close,False
+Q5024,D1224,Femi Nwosu,SMB,2025-06-16,13250,3.4,12800,90,0,18,,Champion is the ops lead,Finance team,2025-07-12,won,2025-07-10,finance,,,approved_after_close,False
+Q5025,D1260,Efe Ogunleye,SMB,2025-06-23,33760,13.2,29300,30,0,12,,Procurement review booked,Manager,2025-06-26,lost,2025-07-10,sales_manager,,,,True
+Q5026,D1145,Ifeoma Owusu,Mid-Market,2025-06-23,155630,4.9,148000,30,0,12,,Customer can terminate for convenience after 6 months,,,lost,2025-07-03,legal,,,clause_in_notes,False
+Q5027,D1129,Dara Eze,SMB,2025-06-23,12730,19.9,10200,30,0,12,,Asked for case studies,sales_manager,2025-06-25,won,2025-07-21,sales_manager,,,,True
+Q5028,D1212,Femi Nwosu,SMB,2025-08-31,24750,7.7,20900,30,0,12,,"No MFN, customer accepted standard terms",,,lost,2025-09-03,none (rep can sign),,,price_mismatch,False
+Q5029,D1226,Grace Abubakar,SMB,2025-07-07,33770,15.3,28600,60,0,12,,Procurement review booked,Finance team; sales_manager,2025-07-09,won,2025-07-31,finance; sales_manager,,,,True
+Q5030,D1175,Lola Banda,Mid-Market,2025-07-07,47730,16.2,40000,30,0,12,,Pricing agreed on the call,Manager,2025-07-08,won,2025-08-06,sales_manager,,,,True
+Q5031,D1066,Dara Eze,SMB,2025-07-07,16410,22.6,12700,60,0,12,,Budget approved for this year,finance; vp_sales,2025-07-10,won,2025-07-21,finance; vp_sales,,,,True
+Q5032,D1265,Hassan Mensah,SMB,2026-02-17,29040,7.7,26800,30,0,36,,Champion is the ops lead,,,lost,2026-03-03,none (rep can sign),,,,True
+Q5033,D1020,Amara Adeyemi,SMB,2025-11-26,24940,18.2,20400,30,0,12,,Security questionnaire returned,,,lost,2025-11-29,sales_manager,sales_manager,,missing_approval,False
+Q5034,D1303,Chidi Bello,SMB,2025-07-21,37340,46.7,19900,30,0,24,,Budget approved for this year,,,lost,2025-07-27,none (rep can sign),,discount 46.7% is above the 40% ceiling,over_ceiling,False
+Q5035,D1077,Musa Mwangi,Mid-Market,2025-06-11,174180,35.7,112000,30,0,12,uncapped_liability,Security questionnaire returned,cro; legal,2025-06-13,won,2025-08-21,cro; legal,,,expired_quote,False
+Q5036,D1074,Ifeoma Owusu,Mid-Market,2025-08-15,162110,45.1,89000,30,1,12,,Procurement review booked,vp_sales,2025-08-16,won,2025-09-01,vp_sales,,discount 45.1% is above the 40% ceiling,over_ceiling,False
+Q5037,D1071,Grace Abubakar,SMB,2025-07-28,20070,9.8,18100,30,0,24,,Pricing agreed on the call,,,won,2025-08-23,none (rep can sign),,,,True
+Q5038,D1030,Lola Banda,Mid-Market,2025-07-28,113920,13.1,99000,30,0,36,,Pricing agreed on the call,Manager,2025-07-29,won,2025-08-26,sales_manager,,,,True
+Q5039,D1136,Femi Nwosu,SMB,2025-07-28,22580,11.0,20100,30,0,24,,Champion is the ops lead,,,lost,2025-08-17,sales_manager,sales_manager,,missing_approval,False
+Q5040,D1126,Hassan Mensah,SMB,2025-08-18,16840,5.6,15900,30,0,24,,Procurement review booked,,,won,2025-09-07,none (rep can sign),,,,True
+Q5041,D1296,Bola Okafor,SMB,2025-08-25,22200,15.3,18800,30,0,12,,Budget approved for this year,sales_manager,2025-09-15,won,2025-09-12,sales_manager,,,approved_after_close,False
+Q5042,D1227,Grace Abubakar,SMB,2026-02-10,42350,43.8,23800,30,0,12,,Asked for case studies,,,lost,2026-02-15,none (rep can sign),,discount 43.8% is above the 40% ceiling,over_ceiling,False
+Q5043,D1122,Hassan Mensah,SMB,2025-08-25,26690,12.7,23300,30,1,12,,"No MFN, customer accepted standard terms",Manager; vp_sales,2025-08-27,won,2025-09-19,sales_manager; vp_sales,,,,True
+Q5044,D1079,Amara Adeyemi,SMB,2026-03-24,10480,8.4,9600,30,1,24,,Procurement review booked,VP,2026-03-27,lost,2026-04-16,vp_sales,,,,True
+Q5045,D1134,Nneka Achebe,Mid-Market,2025-09-28,56920,10.4,51000,30,0,12,,Security questionnaire returned,sales_manager,2025-09-30,won,2025-10-08,sales_manager,,,,True
+Q5046,D1210,Dara Eze,SMB,2025-09-01,44090,28.1,31700,45,0,12,,Pricing agreed on the call,finance; vp_sales,2025-09-04,won,2025-09-19,finance; vp_sales,,,,True
+Q5047,D1059,Nneka Achebe,Mid-Market,2025-09-01,62110,19.5,50000,45,0,18,,Security questionnaire returned,finance; Manager,2025-09-02,won,2025-09-29,finance; sales_manager,,,,True
+Q5048,D1004,Nneka Achebe,Mid-Market,2025-08-09,63220,5.1,60000,30,0,36,,Security questionnaire returned,,,won,2025-10-13,none (rep can sign),,,expired_quote,False
+Q5049,D1246,Dara Eze,SMB,2025-09-08,34950,9.0,31800,30,1,12,,Pricing agreed on the call,VP Sales,2025-10-13,won,2025-10-07,vp_sales,,,approved_after_close,False
+Q5050,D1291,Grace Abubakar,SMB,2025-10-01,38400,47.4,20200,30,0,12,,"Customer asked about an SLA, standard SLA applies",Legal team,2025-10-02,won,2025-10-17,legal,,discount 47.4% is above the 40% ceiling,over_ceiling,False
+Q5051,D1285,Femi Nwosu,SMB,2025-09-29,18380,6.4,17200,30,0,18,,Budget approved for this year,Finance team,2025-10-21,won,2025-10-18,finance,,,approved_after_close,False
+Q5052,D1037,Musa Mwangi,Mid-Market,2025-10-26,108080,12.1,95000,30,0,12,,"Customer asked about an SLA, standard SLA applies",legal; sales_manager,2025-10-28,won,2025-10-29,legal; sales_manager,,,,True
+Q5053,D1328,Ola Sowande,Mid-Market,2025-09-29,75800,24.8,57000,30,0,12,,"Customer asked about an SLA, standard SLA applies",Legal team; VP,2025-10-01,won,2025-10-20,legal; vp_sales,,,,True
+Q5054,D1313,Bola Okafor,SMB,2025-11-03,34660,14.6,29600,45,0,12,,Pricing agreed on the call,finance; sales_manager,2025-11-04,won,2025-11-18,finance; sales_manager,,,,True
+Q5055,D1041,Bola Okafor,SMB,2026-01-25,11020,6.5,10300,30,0,24,,Security questionnaire returned,,,lost,2026-02-14,none (rep can sign),,,,True
+Q5056,D1304,Grace Abubakar,SMB,2025-10-06,32170,11.1,28600,90,1,12,,Champion is the ops lead,Finance team; Manager; VP Sales,2025-10-07,lost,2025-10-16,finance; sales_manager; vp_sales,,,,True
+Q5057,D1111,Amara Adeyemi,SMB,2025-10-13,24690,10.5,22100,30,0,24,,"No MFN, customer accepted standard terms",sales_manager,2025-10-14,won,2025-11-11,sales_manager,,,,True
+Q5058,D1124,Jide Kamau,Mid-Market,2025-12-04,75190,20.2,60000,30,1,12,,Security questionnaire returned,VP Sales,2025-12-07,won,2025-12-10,vp_sales,,,,True
+Q5059,D1237,Femi Nwosu,SMB,2025-10-27,8880,4.3,8500,90,0,12,,Asked for case studies,Finance team,2025-10-28,lost,2025-11-18,finance,,,,True
+Q5060,D1120,Dara Eze,SMB,2025-11-13,14950,9.7,13500,30,0,12,,Procurement review booked,,,won,2025-11-29,none (rep can sign),,,,True
+Q5061,D1168,Dara Eze,SMB,2025-11-03,35520,13.3,30800,30,1,12,,Pricing agreed on the call,sales_manager; vp_sales,2025-11-05,won,2025-11-25,sales_manager; vp_sales,,,,True
+Q5062,D1242,Bola Okafor,SMB,2025-11-10,12920,0.9,12800,30,0,18,,"No MFN, customer accepted standard terms",Finance team,2025-11-13,won,2025-11-30,finance,,,,True
+Q5063,D1165,Hassan Mensah,SMB,2025-11-17,32620,6.8,30400,30,0,12,,Promised MFN pricing to close,,,won,2025-12-11,legal,,,clause_in_notes,False
+Q5064,D1047,Nneka Achebe,Mid-Market,2026-01-28,89310,14.9,76000,30,0,18,,"Customer asked about an SLA, standard SLA applies",Finance team; Legal team; VP,2026-01-29,won,2026-02-17,finance; legal; sales_manager,,,,True
+Q5065,D1174,Dara Eze,SMB,2025-12-03,18790,23.9,14300,45,0,12,,Promised MFN pricing to close,Finance team; vp_sales,2025-12-05,won,2025-12-18,finance; legal; vp_sales,,,clause_in_notes,False
+Q5066,D1335,Bola Okafor,SMB,2025-11-24,30820,15.0,26200,30,0,24,,Pricing agreed on the call,Manager,2025-12-18,won,2025-12-16,sales_manager,,,approved_after_close,False
+Q5067,D1052,Ifeoma Owusu,Mid-Market,2025-12-28,71160,19.9,57000,30,0,12,,"Customer asked about an SLA, standard SLA applies",Legal team; sales_manager,2025-12-30,won,2026-01-04,legal; sales_manager,,,,True
+Q5068,D1167,Femi Nwosu,SMB,2025-12-22,26510,15.5,22400,30,1,24,custom_sla,Committed to a 99.99% uptime guarantee,Manager; VP Sales,2025-12-23,won,2025-12-27,legal; sales_manager; vp_sales,legal,,missing_approval,False
+Q5069,D1137,Grace Abubakar,SMB,2025-12-01,12530,17.8,10300,30,0,36,,Champion is the ops lead,Manager,2025-12-27,won,2025-12-25,sales_manager,,,approved_after_close,False
+Q5070,D1273,Lola Banda,Mid-Market,2026-06-25,117420,20.8,93000,30,0,24,,"No MFN, customer accepted standard terms",vp_sales,2026-06-27,lost,2026-07-02,vp_sales,,,,True
+Q5071,D1194,Ola Sowande,Mid-Market,2026-05-25,115430,22.9,89000,60,0,24,,Procurement review booked,finance; vp_sales,2026-05-28,lost,2026-06-13,finance; vp_sales,,,,True
+Q5072,D1112,Chidi Bello,SMB,2026-04-23,19100,6.8,17800,60,0,24,,Pricing agreed on the call,Finance team,2026-04-25,lost,2026-04-28,finance,,,,True
+Q5073,D1097,Bola Okafor,SMB,2025-11-05,18130,17.8,14900,30,0,12,,"No MFN, customer accepted standard terms",sales_manager,2025-11-08,won,2026-01-07,sales_manager,,,expired_quote,False
+Q5074,D1160,Amara Adeyemi,SMB,2025-12-31,29190,18.8,23700,60,1,12,,Asked for case studies,finance; sales_manager; VP,2026-01-03,won,2026-01-09,finance; sales_manager; vp_sales,,,,True
+Q5075,D1164,Nneka Achebe,Mid-Market,2025-12-15,125270,7.4,116000,60,0,12,,Security questionnaire returned,finance,2025-12-16,won,2026-01-07,finance,,,,True
+Q5076,D1119,Ola Sowande,Mid-Market,2025-12-15,101880,25.4,76000,45,0,12,,"Customer asked about an SLA, standard SLA applies",Finance team; legal; VP,2025-12-18,won,2026-01-11,finance; legal; vp_sales,,,,True
+Q5077,D1044,Lola Banda,Mid-Market,2026-02-03,184040,22.3,143000,30,0,36,,Pricing agreed on the call,VP Sales,2026-02-05,lost,2026-02-17,vp_sales,,,,True
+Q5078,D1113,Amara Adeyemi,SMB,2025-12-15,20530,9.9,18500,60,0,24,,Pricing agreed on the call,finance,2025-12-18,lost,2026-01-12,finance,,,,True
+Q5079,D1228,Grace Abubakar,SMB,2025-12-22,15530,7.9,14300,30,0,12,,"Customer asked about an SLA, standard SLA applies",,,won,2026-01-12,legal,,,clause_in_notes,False
+Q5080,D1287,Dara Eze,SMB,2025-12-29,19680,18.2,16100,30,0,36,,Pricing agreed on the call,Manager,2026-01-30,won,2026-01-25,sales_manager,,,approved_after_close,False
+Q5081,D1290,Bola Okafor,SMB,2026-02-01,17420,17.9,14300,30,0,12,custom_sla,Security questionnaire returned,legal; sales_manager,2026-02-11,won,2026-02-05,legal; sales_manager,,,approved_after_close,False
+Q5082,D1057,Jide Kamau,Mid-Market,2026-04-17,131270,22.3,102000,45,0,12,,Customer can terminate for convenience after 6 months,Finance team; vp_sales,2026-04-19,won,2026-04-21,finance; legal; vp_sales,,,clause_in_notes,False
+Q5083,D1149,Kemi Diallo,Mid-Market,2026-03-16,106970,19.6,86000,30,0,12,,Budget approved for this year,sales_manager,2026-03-18,won,2026-03-22,sales_manager,,,,True
+Q5084,D1241,Amara Adeyemi,SMB,2025-11-11,21470,5.0,20400,30,0,12,,Champion is the ops lead,,,won,2026-02-08,none (rep can sign),,,expired_quote,False
+Q5085,D1039,Bola Okafor,SMB,2026-02-14,12000,7.5,11100,60,0,18,,Pricing agreed on the call,Finance team,2026-02-16,won,2026-02-22,finance,,,,True
+Q5086,D1274,Jide Kamau,Mid-Market,2026-05-11,108380,10.5,97000,30,0,12,,"Customer asked about an SLA, standard SLA applies",Legal team; VP Sales,2026-05-14,lost,2026-05-24,legal; sales_manager,,,,True
+Q5087,D1245,Grace Abubakar,SMB,2026-04-25,26070,4.5,24900,30,0,12,,They can walk away at month 6 if adoption is low,,,lost,2026-05-13,none (rep can sign),,,,True
+Q5088,D1235,Dara Eze,SMB,2026-04-22,20450,7.1,19000,30,0,12,,"No MFN, customer accepted standard terms",,,lost,2026-05-02,none (rep can sign),,,,True
+Q5089,D1152,Chidi Bello,SMB,2026-02-02,22890,3.0,22200,30,0,12,,Security questionnaire returned,,,won,2026-03-01,none (rep can sign),,,,True
+Q5090,D1281,Chidi Bello,SMB,2026-02-09,18330,6.7,17100,30,0,12,,Security questionnaire returned,,,won,2026-02-25,none (rep can sign),,,,True
+Q5091,D1147,Amara Adeyemi,SMB,2026-09-26,11100,0.0,11100,30,0,36,,Asked for case studies,,,lost,2026-09-29,none (rep can sign),,,,True
+Q5092,D1002,Dara Eze,SMB,2026-08-24,35160,23.2,27000,30,0,12,,"No MFN, customer accepted standard terms",vp_sales,2026-08-26,lost,2026-08-27,vp_sales,,,,True
+Q5093,D1035,Ifeoma Owusu,Mid-Market,2026-03-10,62990,11.1,56000,90,0,12,,Security questionnaire returned,finance; sales_manager,2026-03-11,lost,2026-03-21,finance; sales_manager,,,,True
+Q5094,D1275,Ola Sowande,Mid-Market,2026-02-23,145100,17.3,120000,30,0,12,,Budget approved for this year,sales_manager,2026-02-26,lost,2026-03-10,sales_manager,,,,True
+Q5095,D1107,Jide Kamau,Mid-Market,2026-09-10,71330,25.7,53000,30,0,36,,Asked for case studies,VP,2026-09-13,lost,2026-10-02,vp_sales,,,,True
+Q5096,D1076,Chidi Bello,SMB,2026-03-17,31440,15.7,26500,30,0,24,,"Customer asked about an SLA, standard SLA applies",Legal team; Manager,2026-03-19,won,2026-04-10,legal; sales_manager,,,,True
+Q5097,D1270,Grace Abubakar,SMB,2026-03-02,20620,22.4,16000,90,0,12,most_favoured_nation,Champion is the ops lead,finance; legal; VP,2026-03-05,won,2026-03-30,finance; legal; vp_sales,,,,True
+Q5098,D1116,Kemi Diallo,Mid-Market,2026-07-23,100590,15.5,85000,30,1,12,termination_for_convenience,"Customer asked about an SLA, standard SLA applies",Legal team; sales_manager; vp_sales,2026-07-24,lost,2026-07-29,legal; sales_manager; vp_sales,,,,True
+Q5099,D1106,Chidi Bello,SMB,2026-03-09,14850,5.7,14000,30,0,12,,Pricing agreed on the call,,,won,2026-03-26,none (rep can sign),,,,True
+Q5100,D1099,Lola Banda,Mid-Market,2026-03-29,47270,17.5,39000,30,0,12,,Champion is the ops lead,,,won,2026-04-20,sales_manager,sales_manager,,missing_approval,False
+Q5101,D1183,Ifeoma Owusu,Mid-Market,2026-04-24,38340,6.1,36000,30,0,12,,Pricing agreed on the call,,,won,2026-05-08,none (rep can sign),,,,True
+Q5102,D1049,Femi Nwosu,SMB,2026-03-16,19940,6.2,18700,30,0,24,,Gave them a 1 hour response time commitment,,,won,2026-04-14,legal,,,clause_in_notes,False
+Q5103,D1286,Lola Banda,Mid-Market,2026-08-31,162710,45.3,89000,30,0,24,,"Customer asked about an SLA, standard SLA applies",legal,2026-09-02,lost,2026-09-12,legal,,discount 45.3% is above the 40% ceiling,over_ceiling,False
+Q5104,D1155,Nneka Achebe,Mid-Market,2026-03-30,87470,7.4,81000,45,0,12,,Asked for case studies,Finance team,2026-03-31,open,,finance,,,,True
+Q5105,D1094,Efe Ogunleye,SMB,2026-09-22,18070,14.2,15500,30,1,12,,"Customer asked about an SLA, standard SLA applies",Legal team; sales_manager; VP,2026-09-23,lost,2026-10-08,legal; sales_manager; vp_sales,,,,True
+Q5106,D1193,Dara Eze,SMB,2026-04-06,41570,27.6,30100,30,0,12,,Security questionnaire returned,VP,2026-04-09,won,2026-05-03,vp_sales,,,,True
+Q5107,D1314,Ola Sowande,Mid-Market,2026-05-14,79500,19.5,64000,45,0,12,,Budget approved for this year,Finance team; sales_manager,2026-05-17,won,2026-05-19,finance; sales_manager,,,,True
+Q5108,D1333,Efe Ogunleye,SMB,2026-05-05,20880,22.4,16200,30,0,12,,Pricing agreed on the call,,,lost,2026-05-20,vp_sales,vp_sales,,missing_approval,False
+Q5109,D1054,Lola Banda,Mid-Market,2026-04-13,74420,14.0,64000,30,0,36,custom_sla,Budget approved for this year,Legal team; Manager,2026-04-16,lost,2026-04-24,legal; sales_manager,,,,True
+Q5110,D1095,Femi Nwosu,SMB,2026-04-13,28730,10.2,25800,30,0,12,,"Customer asked about an SLA, standard SLA applies",Legal team; Manager,2026-04-16,lost,2026-04-19,legal; sales_manager,,,,True
+Q5111,D1213,Hassan Mensah,SMB,2026-04-20,30700,0.0,30700,90,0,24,,Budget approved for this year,Finance team,2026-04-22,won,2026-05-05,finance,,,,True
+Q5112,D1023,Ola Sowande,Mid-Market,2026-05-05,66500,18.8,54000,30,0,24,,"Customer asked about an SLA, standard SLA applies",legal; vp_sales,2026-05-07,won,2026-05-26,legal; sales_manager,,,,True
+Q5113,D1043,Femi Nwosu,SMB,2026-05-06,11970,8.1,11000,30,0,12,,"No MFN, customer accepted standard terms",,,won,2026-05-25,none (rep can sign),,,,True
+Q5114,D1082,Chidi Bello,SMB,2026-04-20,12380,8.7,11300,30,1,12,,Procurement review booked,VP,2026-04-22,won,2026-05-20,vp_sales,,,,True
+Q5115,D1229,Lola Banda,Mid-Market,2026-08-11,99080,13.2,86000,30,0,12,,"Customer asked about an SLA, standard SLA applies",legal; Manager,2026-08-12,lost,2026-08-14,legal; sales_manager,,,,True
+Q5116,D1182,Dara Eze,SMB,2026-04-27,31400,27.4,22800,30,1,12,,Security questionnaire returned,VP Sales,2026-04-30,won,2026-05-27,vp_sales,,,,True
+Q5117,D1278,Chidi Bello,SMB,2026-05-04,26410,0.4,26300,30,0,24,most_favoured_nation,Budget approved for this year,,,won,2026-05-20,legal,legal,,missing_approval,False
+Q5118,D1297,Grace Abubakar,SMB,2026-03-08,19420,10.4,17400,30,0,12,,Asked for case studies,Manager,2026-03-09,won,2026-05-31,sales_manager,,,expired_quote,False
+Q5119,D1146,Bola Okafor,SMB,2026-05-11,31770,8.4,29100,30,0,12,,"No MFN, customer accepted standard terms",,,lost,2026-05-18,none (rep can sign),,,,True
+Q5120,D1068,Nneka Achebe,Mid-Market,2026-08-24,89770,12.0,79000,30,0,24,,Procurement review booked,Manager,2026-08-25,lost,2026-09-08,sales_manager,,,,True
+Q5121,D1007,Femi Nwosu,SMB,2026-05-11,24030,6.8,22400,45,0,36,,Pricing agreed on the call,Finance team,2026-05-14,won,2026-06-01,finance,,,,True
+Q5122,D1205,Musa Mwangi,Mid-Market,2026-07-10,65160,20.2,52000,30,0,12,,Security questionnaire returned,vp_sales,2026-07-11,lost,2026-07-26,vp_sales,,,,True
+Q5123,D1151,Efe Ogunleye,SMB,2026-05-18,33120,6.4,31000,30,0,18,,"No MFN, customer accepted standard terms",finance,2026-06-13,won,2026-06-09,finance,,,approved_after_close,False
+Q5124,D1317,Amara Adeyemi,SMB,2026-05-25,10200,6.9,9500,45,0,12,,Pricing agreed on the call,finance,2026-05-28,open,,finance,,,,True
+Q5125,D1312,Lola Banda,Mid-Market,2026-05-25,122580,7.0,114000,30,1,36,,Security questionnaire returned,vp_sales,2026-05-28,open,,vp_sales,,,,True
+Q5126,D1138,Musa Mwangi,Mid-Market,2026-06-07,103570,13.1,90000,30,0,12,,Budget approved for this year,VP Sales,2026-06-09,lost,2026-06-29,sales_manager,,,,True
+Q5127,D1320,Bola Okafor,SMB,2026-06-01,28260,9.4,25600,45,0,24,,Champion is the ops lead,Finance team,2026-06-04,open,,finance,,,,True
+Q5128,D1315,Bola Okafor,SMB,2026-04-25,11100,17.1,9200,90,0,36,termination_for_convenience,Budget approved for this year,Finance team; legal; vp_sales,2026-04-27,won,2026-07-20,finance; legal; sales_manager,,,expired_quote,False
+Q5129,D1026,Femi Nwosu,SMB,2026-06-01,31640,19.4,25500,30,0,36,,Champion is the ops lead,Manager,2026-06-04,won,2026-06-28,sales_manager,,,,True
+Q5130,D1300,Bola Okafor,SMB,2026-06-08,9920,8.3,9100,60,0,12,,Pricing agreed on the call,,,open,,finance,finance,,missing_approval,False
+Q5131,D1067,Hassan Mensah,SMB,2026-06-08,22160,3.9,21300,30,0,12,,"No MFN, customer accepted standard terms",,,lost,2026-06-19,none (rep can sign),,,,True
+Q5132,D1032,Ifeoma Owusu,Mid-Market,2026-06-12,144660,12.9,126000,30,0,36,,Champion is the ops lead,sales_manager,2026-06-15,won,2026-07-31,sales_manager,,,expired_quote,False
+Q5133,D1127,Femi Nwosu,SMB,2026-06-15,18220,12.2,16000,30,0,12,,Budget approved for this year,sales_manager,2026-07-10,won,2026-07-03,sales_manager,,,approved_after_close,False
+Q5134,D1051,Dara Eze,SMB,2026-06-15,22690,16.7,18900,30,0,24,,"No MFN, customer accepted standard terms",sales_manager,2026-06-18,open,,sales_manager,,,,True
+Q5135,D1277,Musa Mwangi,Mid-Market,2026-07-18,80170,5.2,76000,45,0,12,,"Customer asked about an SLA, standard SLA applies",Finance team; legal,2026-07-21,lost,2026-08-02,finance; legal,,,,True
+Q5136,D1177,Ifeoma Owusu,Mid-Market,2026-07-11,158190,11.5,140000,60,0,12,,Champion is the ops lead,Finance team; sales_manager,2026-07-14,lost,2026-08-04,finance; sales_manager,,,,True
+Q5137,D1034,Ifeoma Owusu,Mid-Market,2026-07-26,88660,16.1,69000,30,0,36,,"Customer asked about an SLA, standard SLA applies",Legal team; sales_manager,2026-07-29,lost,2026-08-08,legal; sales_manager,,,price_mismatch,False
+Q5138,D1140,Nneka Achebe,Mid-Market,2026-06-29,56500,6.2,53000,30,0,12,,Champion is the ops lead,,,lost,2026-07-10,none (rep can sign),,,,True
+Q5139,D1108,Grace Abubakar,SMB,2026-06-29,18500,0.0,18500,30,0,12,,"No MFN, customer accepted standard terms",,,lost,2026-07-27,none (rep can sign),,,,True
+Q5140,D1236,Musa Mwangi,Mid-Market,2026-07-28,60720,19.3,49000,30,0,12,,"No MFN, customer accepted standard terms",sales_manager,2026-07-30,won,2026-08-20,sales_manager,,,,True
+Q5141,D1063,Grace Abubakar,SMB,2026-07-13,9980,3.8,9600,30,1,12,,"Customer asked about an SLA, standard SLA applies",legal; vp_sales,2026-08-18,won,2026-08-12,legal; vp_sales,,,approved_after_close,False
+Q5142,D1088,Ola Sowande,Mid-Market,2026-08-06,120580,23.7,92000,30,0,12,,Budget approved for this year,vp_sales,2026-08-07,won,2026-08-27,vp_sales,,,,True
+Q5143,D1154,Hassan Mensah,SMB,2026-08-03,12210,12.4,10700,45,0,24,,Procurement review booked,Finance team; VP Sales,2026-08-04,lost,2026-08-29,finance; sales_manager,,,,True
+Q5144,D1040,Nneka Achebe,Mid-Market,2026-09-03,133850,22.3,104000,30,0,12,,Procurement review booked,,,won,2026-09-23,vp_sales,vp_sales,,missing_approval,False
+Q5145,D1058,Amara Adeyemi,SMB,2026-08-10,28970,3.7,27900,30,0,12,,Gave them a 1 hour response time commitment,,,open,,legal,,,clause_in_notes,False
+Q5146,D1196,Femi Nwosu,SMB,2026-07-07,18080,4.3,17300,45,0,12,,Budget approved for this year,Finance team,2026-07-08,won,2026-08-31,finance,,,expired_quote,False
+Q5147,D1201,Jide Kamau,Mid-Market,2026-09-29,122710,12.8,107000,30,0,24,uncapped_liability,"Customer asked about an SLA, standard SLA applies",Legal team; sales_manager,2026-10-01,won,2026-10-12,legal; sales_manager,,,,True
+Q5148,D1329,Lola Banda,Mid-Market,2026-08-24,66130,12.3,58000,30,0,12,,Procurement review booked,sales_manager,2026-08-26,lost,2026-09-03,sales_manager,,,,True
+Q5149,D1115,Ola Sowande,Mid-Market,2026-09-13,175250,18.4,143000,30,0,12,,Asked for case studies,sales_manager,2026-09-14,won,2026-09-28,sales_manager,,,,True
+Q5150,D1001,Ifeoma Owusu,Mid-Market,2026-09-02,81500,22.7,63000,45,0,36,,Budget approved for this year,VP Sales,2026-09-03,won,2026-09-24,finance; vp_sales,finance,,missing_approval,False
+Q5151,D1238,Femi Nwosu,SMB,2026-09-27,9940,10.5,8900,30,0,12,,"No MFN, customer accepted standard terms",Manager,2026-09-29,won,2026-10-01,sales_manager,,,,True
+Q5152,D1017,Kemi Diallo,Mid-Market,2026-08-31,58150,20.9,46000,30,0,12,,Champion is the ops lead,VP,2026-09-03,lost,2026-09-13,vp_sales,,,,True
+Q5153,D1294,Grace Abubakar,SMB,2026-09-07,15050,13.6,13000,30,0,24,,Security questionnaire returned,sales_manager,2026-09-08,won,2026-09-26,sales_manager,,,,True
+Q5154,D1055,Efe Ogunleye,SMB,2026-09-07,14440,14.8,12300,30,0,12,,Pricing agreed on the call,Manager,2026-09-29,won,2026-09-25,sales_manager,,,approved_after_close,False
+Q5155,D1061,Jide Kamau,Mid-Market,2026-09-28,81630,21.6,64000,30,0,12,,Procurement review booked,,,lost,2026-10-08,vp_sales,vp_sales,,missing_approval,False
+Q5156,D1338,Grace Abubakar,SMB,2026-10-05,24400,0.0,24400,30,0,18,,Champion is the ops lead,finance,2026-10-06,open,,finance,,,,True
+Q5157,D1230,Jide Kamau,Mid-Market,2026-10-05,134410,44.2,75000,30,0,36,custom_sla,Security questionnaire returned,Legal team,2026-10-06,won,2026-11-02,legal,,discount 44.2% is above the 40% ceiling,over_ceiling,False
+Q5158,D1128,Bola Okafor,SMB,2026-10-19,25720,2.8,25000,45,1,12,,Pricing agreed on the call,Finance team; VP,2026-10-20,open,,finance; vp_sales,,,,True
+Q5159,D1027,Musa Mwangi,Mid-Market,2026-10-19,157480,11.1,140000,45,0,12,,"No MFN, customer accepted standard terms",Manager,2026-10-22,open,,finance; sales_manager,finance,,missing_approval,False
+Q5160,D1010,Grace Abubakar,SMB,2026-10-26,29320,17.8,24100,60,0,36,,"No MFN, customer accepted standard terms",finance; vp_sales,2026-10-27,open,,finance; sales_manager,,,,True
+Q5161,D1159,Jide Kamau,Mid-Market,2026-11-02,120540,18.7,98000,30,0,24,,Security questionnaire returned,sales_manager,2026-11-04,open,,sales_manager,,,,True

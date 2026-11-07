@@ -1,0 +1,8 @@
+break_type,planted,caught,false_alarms,missed,precision,recall
+missing_approval,13,12,1,1,0.923,0.923
+over_ceiling,7,7,0,0,1.0,1.0
+clause_in_notes,11,8,1,3,0.889,0.727
+approved_after_close,14,14,0,0,1.0,1.0
+price_mismatch,2,2,0,0,1.0,1.0
+expired_quote,9,9,0,0,1.0,1.0
+ANY (quote level),56,54,0,2,1.0,0.964

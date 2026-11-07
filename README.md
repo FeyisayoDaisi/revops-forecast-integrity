@@ -1,6 +1,6 @@
 # Forecast Integrity System
 
-**I make revenue forecasts trustworthy, and I prove it with the numbers.** This repo is a working system that audits a CRM pipeline against its own stage rules, forecasts the quarter three ways, back-tests every method, and builds the weekly forecast review pack a CRO reads on Monday.
+**I make revenue forecasts trustworthy, and I prove it with the numbers.** This repo is a working system that audits a CRM pipeline against its own stage rules, forecasts the quarter three ways, back-tests every method, builds the weekly forecast review pack a CRO reads on Monday, and runs a deal desk that checks every quote against pricing and approval policy.
 
 > All data in this repo is synthetic. Companies, people, deals and amounts are invented by `data/make_data.py`. No client data is used anywhere.
 
@@ -44,6 +44,8 @@ flowchart LR
     G --> H[Back-test raw vs clean<br/>+ leakage check + rep bias]
     H --> I[Stage 3: weekly review pack<br/>number, waterfall, at-risk,<br/>rep vs model, CRO memo]
     I --> J[Reconciliation checks<br/>every memo figure must match]
+    Q[Quotes + deal_desk_policy.yaml] --> L[Stage 4: deal desk<br/>approval check, queue,<br/>discount analytics]
+    F --> L
     K[answer_key.csv<br/>planted problems] -.scores.-> B
     K -.scores.-> D
 ```
@@ -55,6 +57,7 @@ flowchart LR
 5. **Approval gate** (`stage1_hygiene/approvals.csv`). Nothing changes unless a person writes "approve" next to the deal. Approved fixes produce `outputs/stage1/pipeline_clean.csv`.
 6. **Forecasts and back-test** (`stage2_forecast/`). Three methods, each run on the raw and the clean pipeline, at every week of four past quarters, using only the snapshot available on that date.
 7. **Weekly review pack** (`stage3_review/build_pack.py`). The number with a range, a pipeline movement waterfall, deals at risk, rep call versus model call, and a one-page CRO memo. The script computes every number. The AI only writes the narrative, and reconciliation checks fail the pack if the memo contains any figure that is not in the computed facts.
+8. **Deal desk** (`stage4_deal_desk/`). Every quote is checked against `data/deal_desk_policy.yaml`: who must approve a discount band, payment terms, free months, contract length and non-standard clauses. It also flags clauses promised in free-text notes that Legal never saw, approvals dated after the deal closed, quotes whose maths does not match the CRM amount, and deals signed on an expired quote. Open quotes go to an approval queue with the approver and their SLA.
 
 ## Stack
 
@@ -82,7 +85,7 @@ Field names the rules expect in a CRM export (one row per deal per weekly snapsh
 
 ## Usage
 
-Run everything (about 15 seconds):
+Run everything (about 20 seconds):
 
 ```bash
 python run_all.py            # replay saved AI responses
@@ -97,6 +100,8 @@ python stage1_hygiene/run_stage1.py --approvals stage1_hygiene/approvals.csv   #
 python eval/eval_stage1.py
 python stage2_forecast/backtest.py
 python stage3_review/build_pack.py
+python data/make_quotes.py
+python stage4_deal_desk/deal_desk.py
 ```
 
 The first Stage 1 run writes `stage1_hygiene/approvals.csv` with an empty `decision` column. Fill in `approve` or `reject` per deal and run Stage 1 again with `--approvals stage1_hygiene/approvals.csv`. The shipped outputs use `approvals_demo.csv`, a documented demo policy: approve every fix unless the AI judged the flag a false alarm.
@@ -118,6 +123,10 @@ The first Stage 1 run writes `stage1_hygiene/approvals.csv` with an empty `decis
 | `outputs/stage3/review_pack.html` | the weekly pack in one page |
 | `outputs/stage3/forecast_memo.md` / `.pdf` | the CRO memo |
 | `outputs/stage3/reconciliation.csv` | pass or fail per check |
+| `outputs/stage4/quote_checks.csv` | every quote: approvals needed, approvals obtained, approvals missing, hard breaks, policy breaks |
+| `outputs/stage4/approval_queue.csv` | open quotes waiting on an approver: who, why and the SLA in hours |
+| `outputs/stage4/discount_by_rep.csv` | won deals, average discount, points above the team average, flag |
+| `outputs/stage4/summary.json` | discount analytics, revenue on unapproved terms, forecast link, evaluation |
 
 ## Results
 
@@ -171,6 +180,30 @@ See the headline table above. Two more findings:
 - **Reconciliation: 5 of 5 checks pass.** All 17 figures in the memo match the computed facts, the waterfall adds up from $2,490,400 to $2,383,600, and deal-level movements match the totals.
 - **Memo rubric: 3 of 3 pass** (accurate, explains the change, names actions).
 
+### Stage 4: deal desk (162 quotes)
+
+| Policy break | Planted | Caught | False alarms | Missed | Recall |
+| --- | --- | --- | --- | --- | --- |
+| Missing approval | 13 | 12 | 1 | 1 | 92% |
+| Discount above the 40% ceiling | 7 | 7 | 0 | 0 | 100% |
+| Clause promised in notes, Legal never saw it | 11 | 8 | 1 | 3 | 73% |
+| Approval dated after the deal closed | 14 | 14 | 0 | 0 | 100% |
+| Quote maths does not match the CRM amount | 2 | 2 | 0 | 0 | 100% |
+| Deal signed on an expired quote | 9 | 9 | 0 | 0 | 100% |
+| **Any break, quote level** | **56** | **54** | **0** | **2** | **96%** |
+
+**What the check missed:** two deals where the rep wrote "they can walk away at month 6" instead of naming termination for convenience. Keyword rules cannot read intent; this is the obvious place for an AI step with a person checking it. The one missing-approval false alarm came from a note that said "standard SLA applies", which the clause rule read as a promise.
+
+**What the analytics found (synthetic data):**
+- Won deals averaged a **15.3%** discount, rising to **19.1%** in the last two weeks of the quarter against **14.5%** the rest of the time.
+- **$1,077,830** of list price was given away on **$4,208,500** of won revenue.
+- **24 won deals worth $872,800** closed on terms that were never properly approved.
+- Win rate was flat across discount bands (65%, 67%, 58%, 67%), so bigger discounts did not buy more wins.
+- Two reps discount at least 5 points above the team on 5 or more won deals. One of the two planted discounters is caught; the other sits 4.8 points above, just under the line.
+- This quarter, one in-forecast deal worth $140,000 sits on a quote still waiting on Finance, and 3 open quotes are in the approval queue.
+
+![Deal desk](outputs/stage4/deal_desk.png)
+
 ## Design notes
 
 - **One fix per deal, most important first.** A duplicate is merged before anyone argues about its stage. Owners get one clear ask, not a list.
@@ -179,6 +212,8 @@ See the headline table above. Two more findings:
 - **Human approval before any write.** The approval file is plain CSV so a RevOps lead can review it in a spreadsheet.
 - **Rules live in YAML, not code.** Changing a stage time limit or win probability is a one-line edit a non-engineer can make.
 - **Leakage is checked, not assumed.** Every data access in the back-test is logged and checked against the forecast date.
+- **Seniority counts in approvals.** A CRO signing a manager-level discount is valid, so the check accepts a more senior sales approver. Finance and Legal cannot be covered by anyone else.
+- **A rep is only flagged with enough evidence:** 5 or more won deals and 5 or more points above the team average.
 - **Errors are shown, not hidden.** Every miss is listed in `outputs/stage1/eval_rules_misses.csv` and `eval_ai_disagreements.csv`.
 
 ## Troubleshooting
@@ -192,6 +227,8 @@ Real errors from building this:
 | Duplicate recall was 29% | The rule only compared open deals, so a duplicate whose original had already closed was never matched | The rule now checks every record in CRM history |
 | Reconciliation failed on a correct memo | The figure regex captured the comma after "$590,000," | Tightened the regex to thousands groups only |
 | Negative amounts printed as "$-75,000" | Default number formatting | `money()` now writes "-$75,000" |
+| Stage 4 approval queue was empty | Almost no open quotes broke policy, because breaks were planted at the same rate on every quote | Planted more breaks on open quotes, since the live quarter is where a deal desk works |
+| Stage 4 miss list showed each miss twice | False negatives and false alarms were collected in two passes over the same rows | Dropped duplicates before writing the file |
 | Rep bias table blamed the wrong reps | One snapshot per quarter gave too few deals per rep | Measured across weeks 2, 6 and 10, and required at least 3 commit deals before calling a rep optimistic |
 
 ## Privacy and compliance
@@ -222,10 +259,11 @@ Real errors from building this:
 ## Repo map
 
 ```
-data/              make_data.py, stage_rules.yaml, synthetic CSVs, answer_key.csv
+data/              make_data.py, make_quotes.py, stage_rules.yaml, deal_desk_policy.yaml, synthetic CSVs, answer keys
 stage1_hygiene/    stage definitions, rules check, AI verdict step, approvals
 stage2_forecast/   three forecast methods, back-test, leakage check, rep bias
 stage3_review/     weekly pack, waterfall, memo, reconciliation checks
+stage4_deal_desk/  pricing and approval policy check, approval queue, discount analytics
 eval/              Stage 1 evaluation against the answer key
 outputs/           every output file, regenerated by run_all.py
 docs/              one-page write-ups per stage

@@ -1,0 +1,5 @@
+quote_id,planted,detected,notes
+Q5079,missing_approval,clause_in_notes,"Customer asked about an SLA, standard SLA applies"
+Q5068,clause_in_notes,missing_approval,Committed to a 99.99% uptime guarantee
+Q5013,clause_in_notes,,They can walk away at month 6 if adoption is low
+Q5087,clause_in_notes,,They can walk away at month 6 if adoption is low

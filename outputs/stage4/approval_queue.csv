@@ -1,0 +1,4 @@
+quote_id,deal_id,owner,net_price,discount_pct,waiting_on,sla_hours,why
+Q5159,D1027,Musa Mwangi,140000,11.1,finance,24,missing_approval
+Q5145,D1058,Amara Adeyemi,27900,3.7,legal,48,clause_in_notes
+Q5130,D1300,Bola Okafor,9100,8.3,finance,24,missing_approval

@@ -1,0 +1,55 @@
+quote_id,deal_id,owner,net_price,discount_pct,approvals_needed,approvals_obtained,policy_breaks,outcome
+Q5000,D1069,Efe Ogunleye,27800,9.2,legal,,clause_in_notes,lost
+Q5003,D1232,Amara Adeyemi,21400,6.2,finance; vp_sales,finance; VP Sales,expired_quote,won
+Q5004,D1243,Musa Mwangi,138000,18.3,legal; sales_manager,sales_manager,clause_in_notes,won
+Q5006,D1306,Grace Abubakar,21800,13.9,sales_manager,,missing_approval,won
+Q5007,D1324,Kemi Diallo,110000,16.1,sales_manager,,missing_approval,lost
+Q5008,D1272,Nneka Achebe,145000,44.3,none (rep can sign),,over_ceiling,won
+Q5022,D1133,Musa Mwangi,38000,15.0,sales_manager,Manager,approved_after_close,won
+Q5023,D1216,Dara Eze,12700,21.8,legal; vp_sales,Legal team; VP Sales,approved_after_close,won
+Q5024,D1224,Femi Nwosu,12800,3.4,finance,Finance team,approved_after_close,won
+Q5026,D1145,Ifeoma Owusu,148000,4.9,legal,,clause_in_notes,lost
+Q5028,D1212,Femi Nwosu,20900,7.7,none (rep can sign),,price_mismatch,lost
+Q5033,D1020,Amara Adeyemi,20400,18.2,sales_manager,,missing_approval,lost
+Q5034,D1303,Chidi Bello,19900,46.7,none (rep can sign),,over_ceiling,lost
+Q5035,D1077,Musa Mwangi,112000,35.7,cro; legal,cro; legal,expired_quote,won
+Q5036,D1074,Ifeoma Owusu,89000,45.1,vp_sales,vp_sales,over_ceiling,won
+Q5039,D1136,Femi Nwosu,20100,11.0,sales_manager,,missing_approval,lost
+Q5041,D1296,Bola Okafor,18800,15.3,sales_manager,sales_manager,approved_after_close,won
+Q5042,D1227,Grace Abubakar,23800,43.8,none (rep can sign),,over_ceiling,lost
+Q5048,D1004,Nneka Achebe,60000,5.1,none (rep can sign),,expired_quote,won
+Q5049,D1246,Dara Eze,31800,9.0,vp_sales,VP Sales,approved_after_close,won
+Q5050,D1291,Grace Abubakar,20200,47.4,legal,Legal team,over_ceiling,won
+Q5051,D1285,Femi Nwosu,17200,6.4,finance,Finance team,approved_after_close,won
+Q5063,D1165,Hassan Mensah,30400,6.8,legal,,clause_in_notes,won
+Q5065,D1174,Dara Eze,14300,23.9,finance; legal; vp_sales,Finance team; vp_sales,clause_in_notes,won
+Q5066,D1335,Bola Okafor,26200,15.0,sales_manager,Manager,approved_after_close,won
+Q5068,D1167,Femi Nwosu,22400,15.5,legal; sales_manager; vp_sales,Manager; VP Sales,missing_approval,won
+Q5069,D1137,Grace Abubakar,10300,17.8,sales_manager,Manager,approved_after_close,won
+Q5073,D1097,Bola Okafor,14900,17.8,sales_manager,sales_manager,expired_quote,won
+Q5079,D1228,Grace Abubakar,14300,7.9,legal,,clause_in_notes,won
+Q5080,D1287,Dara Eze,16100,18.2,sales_manager,Manager,approved_after_close,won
+Q5081,D1290,Bola Okafor,14300,17.9,legal; sales_manager,legal; sales_manager,approved_after_close,won
+Q5082,D1057,Jide Kamau,102000,22.3,finance; legal; vp_sales,Finance team; vp_sales,clause_in_notes,won
+Q5084,D1241,Amara Adeyemi,20400,5.0,none (rep can sign),,expired_quote,won
+Q5100,D1099,Lola Banda,39000,17.5,sales_manager,,missing_approval,won
+Q5102,D1049,Femi Nwosu,18700,6.2,legal,,clause_in_notes,won
+Q5103,D1286,Lola Banda,89000,45.3,legal,legal,over_ceiling,lost
+Q5108,D1333,Efe Ogunleye,16200,22.4,vp_sales,,missing_approval,lost
+Q5117,D1278,Chidi Bello,26300,0.4,legal,,missing_approval,won
+Q5118,D1297,Grace Abubakar,17400,10.4,sales_manager,Manager,expired_quote,won
+Q5123,D1151,Efe Ogunleye,31000,6.4,finance,finance,approved_after_close,won
+Q5128,D1315,Bola Okafor,9200,17.1,finance; legal; sales_manager,Finance team; legal; vp_sales,expired_quote,won
+Q5130,D1300,Bola Okafor,9100,8.3,finance,,missing_approval,open
+Q5132,D1032,Ifeoma Owusu,126000,12.9,sales_manager,sales_manager,expired_quote,won
+Q5133,D1127,Femi Nwosu,16000,12.2,sales_manager,sales_manager,approved_after_close,won
+Q5137,D1034,Ifeoma Owusu,69000,16.1,legal; sales_manager,Legal team; sales_manager,price_mismatch,lost
+Q5141,D1063,Grace Abubakar,9600,3.8,legal; vp_sales,legal; vp_sales,approved_after_close,won
+Q5144,D1040,Nneka Achebe,104000,22.3,vp_sales,,missing_approval,won
+Q5145,D1058,Amara Adeyemi,27900,3.7,legal,,clause_in_notes,open
+Q5146,D1196,Femi Nwosu,17300,4.3,finance,Finance team,expired_quote,won
+Q5150,D1001,Ifeoma Owusu,63000,22.7,finance; vp_sales,VP Sales,missing_approval,won
+Q5154,D1055,Efe Ogunleye,12300,14.8,sales_manager,Manager,approved_after_close,won
+Q5155,D1061,Jide Kamau,64000,21.6,vp_sales,,missing_approval,lost
+Q5157,D1230,Jide Kamau,75000,44.2,legal,Legal team,over_ceiling,won
+Q5159,D1027,Musa Mwangi,140000,11.1,finance; sales_manager,Manager,missing_approval,open

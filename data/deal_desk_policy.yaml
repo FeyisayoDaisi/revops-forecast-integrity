@@ -1,0 +1,40 @@
+# Deal desk policy for the Forecast Integrity System (synthetic company).
+# Read by stage4_deal_desk/deal_desk.py. Change a threshold here, not in code.
+
+approvers:            # in order of seniority
+  - rep
+  - sales_manager
+  - vp_sales
+  - cro
+roles_outside_sales: [finance, legal]
+
+discount_bands:       # list price discount -> lowest role that can approve it
+  - {max_pct: 10, approver: rep}
+  - {max_pct: 20, approver: sales_manager}
+  - {max_pct: 30, approver: vp_sales}
+  - {max_pct: 40, approver: cro}
+hard_ceiling_pct: 40  # above this, no one can approve: the quote must be reworked
+
+payment_terms:        # days -> extra approval needed
+  30: null
+  45: finance
+  60: finance
+  90: finance
+
+free_months:
+  max_without_approval: 0
+  approver: vp_sales          # any free months need VP Sales
+  hard_ceiling: 3
+
+term_months:
+  standard: [12, 24, 36]
+  non_standard_approver: finance
+
+non_standard_clauses:         # any of these needs Legal
+  - custom_sla
+  - termination_for_convenience
+  - most_favoured_nation
+  - uncapped_liability
+
+approval_sla_hours: {rep: 0, sales_manager: 8, vp_sales: 24, cro: 48, finance: 24, legal: 48}
+quote_valid_days: 30
